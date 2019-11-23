@@ -1,0 +1,32 @@
+{
+  "name": "ser1ous/evocms-comments",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Pashkevich",
+      "email": "sertious2008.wortk3@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "EvolutionCMS\\Stream\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EvolutionCMS\\Stream\\StreamServiceProvider"
+      ],
+      "files": [
+        {
+          "source": "assets/",
+          "destination": "lib/"
+        }
+      ]
+
+    }
+  }
+}

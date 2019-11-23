@@ -1,0 +1,19 @@
+{
+  "name": "evolutioncms/stream",
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "EvolutionCMS\\Stream\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EvolutionCMS\\Stream\\StreamServiceProvider"
+      ]
+
+    }
+  }
+}
