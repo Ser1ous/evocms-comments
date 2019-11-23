@@ -22,6 +22,10 @@ class StreamServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->loadSnippetsFrom(
+            dirname(__DIR__). '/snippets/',
+            $this->namespace
+        );
 
         SiteContent::addDynamicRelation('comments', function (SiteContent $myModel) {
             return $myModel->hasMany(Comments::class);
