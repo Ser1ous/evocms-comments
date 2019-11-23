@@ -1,6 +1,6 @@
 <?php
 
-namespace EvolutionCMS\Stream\Models;
+namespace EvolutionCMS\DemoChat\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;

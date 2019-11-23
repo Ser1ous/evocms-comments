@@ -12,13 +12,13 @@
   },
   "autoload": {
     "psr-4": {
-      "EvolutionCMS\\Stream\\": "src"
+      "EvolutionCMS\\DemoChat\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "EvolutionCMS\\Stream\\StreamServiceProvider"
+        "EvolutionCMS\\DemoChat\\StreamServiceProvider"
       ],
       "files": [
         {

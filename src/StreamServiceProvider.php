@@ -3,7 +3,7 @@
 use EvolutionCMS\Models\SiteContent;
 use EvolutionCMS\Models\WebUser;
 use EvolutionCMS\ServiceProvider;
-use EvolutionCMS\Stream\Models\Comments;
+use EvolutionCMS\DemoChat\Models\Comments;
 
 class StreamServiceProvider extends ServiceProvider
 {
